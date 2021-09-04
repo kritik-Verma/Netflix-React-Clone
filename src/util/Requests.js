@@ -25,5 +25,5 @@ exports.requests = {
   fetchEpisode: `/tv/ID/season/SNO/episode/ENO?api_key=${API_KEY}&language=en-US`,
 };
 
-// export default requests;
-// https://api.themoviedb.org/3/trending/all/week?api_key=5e6bf1da9afe9aae627b882d61d1eaa3&language=en=US
+// Default base url
+// https://api.themoviedb.org/3/trending/all/week?api_key=<<api_key>>&language=en=US

@@ -1,0 +1,11 @@
+.App {
+  background-color: rgb(17, 17, 17);
+}
+::-webkit-scrollbar {
+  background: black;
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(46, 46, 46);
+  border-radius: 25px;
+}

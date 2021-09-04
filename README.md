@@ -16,7 +16,7 @@ This application uses TMDB api and Firebase Authentication
 ## Mobile Screenshots
 
 <image src="ScreenShorts/12 LandingPage_Mobile.jpg" width="250"/>
-<div width="250" class="box" style="display: inline-flex; position: relative;">  
+<div width="251" class="box" style="display: inline-flex; position: relative;">  
   <image src="ScreenShorts/17 ShowDetails__Mobile.jpg" width="250" style="position: inline; top: 0;"/>
   <image src="ScreenShorts/18 SeasonDetails__1traller__Mobile.jpg" width="250"/>
   <image src="ScreenShorts/16 MoviesPage__Mobile.jpg" width="250" style="position: inline; padding-bottom: 20;"/>

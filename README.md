@@ -2,6 +2,9 @@
 
 This application uses TMDB api and Firebase Authentication
 
+you can run application demo on heroku [here](https://netflix-clone-vejita2-0.herokuapp.com)
+
+(To make visitors experience smooth Authentication is removed from demo)
 ## Screenshots
 
 <image src="ScreenShots/1 LandingPageMain (non-loggedin-users).png"/>

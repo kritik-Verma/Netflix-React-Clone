@@ -1,0 +1,46 @@
+.Guestpopup__main {
+  height: 100px;
+  width: 400px;
+  background-color: rgba(128, 128, 128, 0.403);
+  color: rgba(255, 255, 255, 0.603);
+  position: absolute;
+  top: 20px;
+  right: 120px;
+  z-index: 999999;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+.Guestpopup__main > h2 {
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.Guestpopup__main > button {
+  text-transform: capitalize;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.627);
+  background-color: rgba(255, 0, 0, 0.581);
+  padding: 15px 20px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.Guestpopup__main > button:hover {
+  background-color: rgb(203, 0, 0);
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateY(-400%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

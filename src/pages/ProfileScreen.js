@@ -12,10 +12,7 @@ function ProfileScreen() {
       <div className="ProfileScreen__body">
         <h1>Edit Profile</h1>
         <div className="ProfileScreen__info">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
-            alt=""
-          />
+          <img src="/images/Netflix-avatar.png" alt="" />
           <div className="ProfileScreen__details">
             <h2>{user.email}</h2>
             <div className="ProfileScreen__Planes">

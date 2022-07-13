@@ -54,9 +54,9 @@ function Nav(props) {
             <Link to="/movies">
               <li className={props.movies && "active"}>Movies</li>
             </Link>
-            <Link to="/my-list">
+            {/* <Link to="/my-list">
               <li className={props.activeState?.myList && "active"}>My List</li>
-            </Link>
+            </Link> */}
             <li className="nav__components__downArrow">
               <svg
                 onClick={doToggle}

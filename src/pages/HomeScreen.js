@@ -1,12 +1,12 @@
 import React from "react";
-import "./css/HomeScreen.css";
 import Nav from "../components/Nav";
 import Banner from "../components/Banner";
 import Row from "../components/Row";
 import RowBanner from "../components/RowBanner";
 import Footer from "../components/Footer";
-
 import { requests } from "../util/Requests";
+import "./css/HomeScreen.css";
+
 function HomeScreen() {
   return (
     <div className="homeScreen">
@@ -19,8 +19,6 @@ function HomeScreen() {
         fetchUrl={requests.fetchNetflixOriginals.replace("NO", 2)}
         isLargeRow
       />
-
-      <RowBanner />
 
       <Row title="Trending Now" fetchUrl={requests.fetchTrending} />
 

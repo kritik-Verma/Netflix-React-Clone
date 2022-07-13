@@ -1,16 +1,14 @@
 import React, { useState } from "react";
 import "./css/LoginPage.css";
 import SingUp from "../components/SingUp";
+import Guestpopup from "../components/Guestpopup";
 function LoginPage() {
   const [singin, setSingin] = useState(false);
   return (
     <div className="loginScreen">
+      <Guestpopup />
       <div className="loginScreen__background">
-        <img
-          className="loginScreen__logo"
-          src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
-          alt=""
-        />
+        <img className="loginScreen__logo" src="/images/nlogo.png" alt="" />
         <button onClick={() => setSingin(true)} className="loginScreen__btn">
           Sign In
         </button>

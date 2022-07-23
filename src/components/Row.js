@@ -20,12 +20,12 @@ function Row(props) {
       <div className="row">
         <h2 className="row__movieName">{props.title}</h2>
         <div className="row__posters">
-          {movies.map((movie) => {
+          {movies.map((movie, idx) => {
             if (
               (props.isLargeRow && movie.poster_path) ||
               (!props.isLargeRow && movie.backdrop_path)
             ) {
-              return <RowCard prop={props} movie={movie} />;
+              return <RowCard kry={idx} prop={props} movie={movie} />;
             } else {
               return "";
             }

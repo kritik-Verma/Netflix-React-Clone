@@ -2,7 +2,6 @@ import React from "react";
 import Nav from "../components/Nav";
 import Banner from "../components/Banner";
 import Row from "../components/Row";
-import RowBanner from "../components/RowBanner";
 import Footer from "../components/Footer";
 import { requests } from "../util/Requests";
 import "./css/HomeScreen.css";
